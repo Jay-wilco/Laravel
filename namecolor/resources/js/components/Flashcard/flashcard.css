@@ -1,0 +1,33 @@
+.flashcard-container {
+    max-width: 300px;
+    margin: 2rem auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.flashcard {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.flashcard:hover {
+    background-color: #eaeaea;
+}
+
+.flashcard-buttons {
+    margin-top: 1rem;
+}
+
+.flashcard-buttons button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
